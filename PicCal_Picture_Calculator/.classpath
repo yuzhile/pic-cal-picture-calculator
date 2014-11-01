@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="C:/Users/Ben Nguyen/Desktop/CSE 190/tianyu_ma/Jar Library Files/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben Nguyen/Desktop/CSE 190/tianyu_ma/Jar Library Files/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben Nguyen/Desktop/CSE 190/tianyu_ma/Jar Library Files/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben Nguyen/Desktop/CSE 190/tianyu_ma/Jar Library Files/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben Nguyen/Desktop/CSE 190/tianyu_ma/Jar Library Files/WolframAlpha-1.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

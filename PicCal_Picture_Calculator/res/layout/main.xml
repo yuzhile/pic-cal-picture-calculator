@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/field1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+            android:maxLines="2"
+            android:ems="10"
+            android:hint="@string/text_hint1" >
+        </EditText>
+	</RelativeLayout>
+	
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:fillViewport="true" >
+
+	    <TextView
+	        android:id="@+id/field2"
+	        android:layout_width="330dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginRight="15dp"
+	        android:layout_marginTop="10dp"
+	        android:ems="10"
+	        android:hint="@string/text_hint2" >
+
+    	</TextView>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" 
+        android:gravity = "bottom"
+        android:layout_marginTop="490dp"
+        android:layout_alignParentBottom="true" >
+
+        
+		<Button
+            android:id="@+id/takepic"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/take_pic" />
+        
+        <Button
+            android:id="@+id/getimage"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/getresult"
+            android:text="@string/get_image" />
+        
+        <Button
+            android:id="@+id/getresult"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/cleartext"
+            android:text="@string/get_result" />
+        
+        <Button
+            android:id="@+id/cleartext"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/clear_text" />
+
+    </RelativeLayout>
+</RelativeLayout>
